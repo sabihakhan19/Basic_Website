@@ -1,0 +1,21 @@
+*{
+    margin: 1px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+body {
+    padding: 25px;
+    margin: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+    background: url(ABG2.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.head{
+    font-weight: 800;
+    font-size: xx-large;
+}

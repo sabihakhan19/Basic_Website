@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'sans-serif';
+    /* font-family: 'Enriqueta', serif;
+    font-family: 'Halant', serif;
+    font-family: 'Prompt', sans-serif;  */
+}
+:root{
+    --clr: #F7EDDC ; 
+}
+body{
+    display: flex;
+    background-color: var(--clr);
+}
+#bg-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80%;
+    height: 100%;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+    z-index: -1;
+}
+header{ 
+    background-color:  #cb556b;
+    /* background-image: url(fire2.3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+main{
+    padding: 100px;
+}
+h1{
+font-family: 'Halant', serif;
+}
+p{
+    font-family: 'Enriqueta', serif
+}
+
+/* .logo1{
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+} */
+.logo{
+    position: relative;
+    font-size: 2em;
+    color: #ffffff ;
+    user-select: none;
+    margin-left: 10px;
+}
+.navigation{
+    display: flex;
+    gap: 6px;
+}
+.navigation a{
+    position: relative;
+    font-size: 1.1em;
+    padding: 12px 20px;
+    color: #000000 ;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+}
+header .navigation #indicator {
+    position: absolute;
+    width: 85px;
+    height: 70px;
+    background-color: var(--clr);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: 0.55s;
+    opacity: 0; 
+}
+header .navigation #indicator::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -30px;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 0 5px var(--clr);
+}
+header .navigation #indicator::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: -30px;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-bottom-left-radius: 20px;
+    box-shadow: -5px 5px 0 5px var(--clr);
+}
+.login .btnlogin {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #9b3550;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: 600;
+    margin-left: 40px;
+}
+.login .btnlogin:hover {
+    background: #F7EDDC ;
+}
+
+main .intro{
+    font-size:xx-large;
+    padding-top: 55px;
+}
+
+
