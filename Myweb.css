@@ -9,6 +9,7 @@
 }
 :root{
     --clr: #F7EDDC ; 
+    --red-velvet: #e96666;
 }
 body{
     display: flex;
@@ -79,7 +80,7 @@ header .navigation #indicator {
     position: absolute;
     width: 85px;
     height: 70px;
-    background-color: var(--clr);
+    background-color: var(--red-velvet);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     transition: 0.55s;
